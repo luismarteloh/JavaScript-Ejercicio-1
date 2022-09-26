@@ -1,0 +1,12 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "ejercicio para la primera entrega del curso JavaScript de Open Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "testimonio":"node testimonio.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Martelo",
+  "license": "ISC"
+}
