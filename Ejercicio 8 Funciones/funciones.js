@@ -10,7 +10,7 @@ console.log(ver);
 
 
 //- Una función asíncrona que utilice un setTimeout y pase por consola un "Hola soy una promesa" 5 segundos después de haberse ejecutado
-function miPromesa(){
+async function miPromesa(){
     setTimeout(saludo, 5000);
 }
 
