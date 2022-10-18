@@ -4,9 +4,12 @@
   "description": "ejercicio para la primera entrega del curso JavaScript de Open Bootcamp",
   "main": "index.js",
   "scripts": {
-    "testimonio":"node testimonio.js",
+    "testimonio": "node testimonio.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luis Martelo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
 }
