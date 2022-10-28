@@ -1,0 +1,12 @@
+.seccion {
+    width: 250px;
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 5px;
+}
+
+.parrafo {
+    background-color: chocolate;
+    margin: 5px;
+    padding: 5px;
+}
