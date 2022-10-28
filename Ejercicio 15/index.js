@@ -5,9 +5,8 @@
 //     apellido: apellido 
 // }
 
-// sessionStorage.setItem("obj",obj)
-// // console.log(JSON.parse(sessionStorage.getItem("obj")))
-// localStorage.setItem("obj", obj)
+// sessionStorage.setItem("obj", JSON.stringify(obj))
+// localStorage.setItem("obj", JSON.stringify(obj))
 
-// // document.cookie = obj
-// document.cookie =  `nombreCaducidad=${obj};expires=` + new Date(2022, 9, 27, 15, 38).toUTCString()
+const fechaActual = new Date()
+// document.cookie = `obj=${JSON.stringify(obj)};expires=${new Date(fechaActual.getTime() + 2 * 60000)}`
